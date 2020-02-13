@@ -1,0 +1,80 @@
+.why-brandcrush-page{
+    .banner-section{
+        background: linear-gradient(rgba($color: #000000, $alpha: 0.5), rgba($color: #000000, $alpha: 0.5)), url("../images/Staticpages/Stocksy_txp829abf37kJ2200_Medium_891814.jpg");
+        background-position: center;
+        background-size: cover;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        .hero-body{
+            .banner-w{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .title{
+                    font-family: Poppins;
+                    font-size: 32px;
+                    font-weight: bold;
+                }
+                .subtitle{
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-top: -1rem;
+                    margin-bottom: 3rem;
+                }
+                .button{
+                    width: 190px;
+                    height: 40px;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    // font-weight: 600;
+                }
+            }
+        }
+    }    
+    .we-are-here-section{
+        // padding: 0 1rem;
+    }
+    .brand-activation-section{
+        padding: 1rem 1rem;
+        .container{
+            max-width: 1030px;
+        }
+        .brand-activation-w{
+            .button-w{
+                max-width: 420px;
+                margin: 3rem auto;
+                display: flex;
+                justify-content: space-between;
+                .button{
+                    width: 200px;
+                    height: 34px;
+                }
+            }
+            .image-list-w{
+                padding: 3rem 0;                    
+                .image-w{
+                    .img{
+                        height: 600px;
+                        width: 90%;
+                        margin: 0 auto;                    
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+            }
+            .footer-button-w{
+                margin: 1rem auto 3rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .button{
+                    width: 250px;
+                    height: 40px;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About Brandcrush</title>
+        <link rel="stylesheet" href="./assets/css/mystyle.css">
+        <script defer src="./lib/js/fontawesome-5.2.0/js/all.js"></script>
+        <script src="./lib/js/jquery/jquery.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </head>
+    <script>
+        $(function(){
+            $("#component_nav_with_search").load("component_nav_with_search.html", function(){
+                $(".navbar-burger").click(function() {
+                    $(".navbar-burger").toggleClass("is-active");
+                    $(".navbar-menu").toggleClass("is-active");            
+                });
+            });
+            $("#component_footer").load("component_footer.html");
+            $("#component_activation_concept").load("component_activation_concept.html");
+        })
+    </script>
+    <body>
+        <div id="component_nav_with_search"></div>
+        <div class="about-brandcrush-page">
+            <section class="hero is-medium is-info banner-section">
+                <div class="hero-body">
+                    <div class="banner-w">
+                        <p class="title">
+                            About Brandcrush
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="activation-description-section">
+                <div class="container">
+                    <div class="activation-description-w">
+                        Brandcrush is a marketing platform that connects brands with thousands of activation spaces.
+                    </div>
+                </div>
+            </section>
+            <div id="component_activation_concept"></div>
+            <div class="container"><div class="custom-hr"></div></div>            
+            <section class="watch-video-section">
+                <div class="container">
+                    <div class="watch-video-w">
+                        <div class="title">
+                            Explained in 30 seconds
+                        </div>
+                        <div class="sub-title">
+                            Watch our 30 second video to understand how we help businesses monetise foot traffic and Brands create highly targeted activations.
+                        </div>
+                        <div class="video-w">
+                            <img src="./assets/images/video_control.png" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="we-connect-brands-section">
+                <div class="container">
+                    <div class="we-connect-brands-w post-component">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="image" style="background-image: url(./assets/images/Staticpages/Stocksy_txp829abf37kJ2200_Medium_809291.jpg)"></div>
+                            </div>
+                            <div class="column">
+                                <div class="post-body">
+                                    <div class="post-title">We connect brands with people, in the real world</div>
+                                    <div class="post-desc">
+                                        <p>In this digital world, consumers crave physical experiences. They want shareable interactions with brands that are genuine and highly personalised.</p>
+                                        <p>Marketers, now more than ever, are turning to proven experiential and sampling strategies to engage with consumers, drive purchase, and deliver on ROI.</p>
+                                        <p>Brandcrush is here to make those real-life connections between brands and people easier and more effective. We’re cutting through the clutter and giving marketers an easy to use platform to find and book spaces to activate their brand and connect with their audience.</p>
+                                        <p>Make your brand come to (real) life with Brandcrush. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="component_footer"></div>
+        </div>
+    </body>
+</html>

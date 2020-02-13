@@ -1,0 +1,126 @@
+.blog-roll-page{
+    .banner-section{
+        background: linear-gradient(rgba($color: #000000, $alpha: 0.5), rgba($color: #000000, $alpha: 0.5)), url("../images/Homepage/Cards/bruce-mars-554386-unsplash.jpg");
+        background-position: center;
+        background-size: cover;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        .hero-body{
+            .banner-w{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .title{
+                    font-family: Poppins;
+                    font-size: 32px;
+                    font-weight: bold;
+                    max-width: 680px;
+                    text-align: center;
+                }
+                .subtitle{
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-top: -1rem;
+                    margin-bottom: 3rem;
+                }
+                .button{
+                    width: 160px;
+                    height: 40px;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    // font-weight: 600;
+                }
+            }
+        }
+    } 
+    .blog-main-section{
+        padding: 3rem 1rem;
+        .blog-main-w{
+            .blog-w{
+                width: 90%;
+                margin: 1rem auto;
+                .category-text{
+                    font-family: Karla;
+                    font-size: 11px;
+                    font-weight: bold;
+                    color: $charcoal-grey-60-p;
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+                }
+                .title{
+                    font-family: Poppins;
+                    font-size: 22px;
+                    font-family: 600;
+                    color: $charcoal-grey;
+                    margin-bottom: 1.5rem;
+                    height: 3.5rem;
+                    overflow: hidden;
+                }
+                .blog-image-w{
+                    .blog-image{
+                        height: 360px;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+                .description{
+                    font-family: Karla;
+                    font-size: 16px;
+                    color: $charcoal-grey;
+                    margin: 1.25rem auto;
+                    height: 6rem;
+                    overflow: hidden;
+                }
+                .read-more-link{
+                    font-family: Karla;
+                    font-size: 16px;
+                    color: $cerise;
+                    display: flex;
+                    align-items: center;
+                    margin: 1.5rem auto 2rem;
+                }
+            }
+            .load-more{
+                margin: 3rem auto 4rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .button{
+                    width: 250px;
+                    height: 40px;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .follow-instagram-section{
+        padding: 3rem 0;
+        background-color: $pale-grey;
+        .follow-instagram-w{
+            .instagram-images{
+                padding: 1rem;
+                .image-w{
+                    .image{
+                        height: 250px;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                } 
+            }            
+            .follow-link-w{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 2rem auto;
+                a{
+                    font-family: Karla;
+                    font-size: 16px;
+                    text-align: center;
+                    color: $cerise;
+                }
+            }
+        }
+    }
+}

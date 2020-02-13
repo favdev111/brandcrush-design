@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blog Single Article</title>
+        <link rel="stylesheet" href="./assets/css/mystyle.css">
+        <script defer src="./lib/js/fontawesome-5.2.0/js/all.js"></script>
+        <script src="./lib/js/jquery/jquery.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </head>
+    <script>
+        $(function(){
+            $("#component_nav_with_search").load("component_nav_with_search.html", function(){
+                $(".navbar-burger").click(function() {
+                    $(".navbar-burger").toggleClass("is-active");
+                    $(".navbar-menu").toggleClass("is-active");            
+                });
+            });
+            $("#component_footer").load("component_footer.html");
+        })
+    </script>
+    <body>
+        <div id="component_nav_with_search"></div>
+        <div class="blog-article-page">
+            <section class="hero is-medium is-info banner-section">
+                <div class="hero-body">
+                    <div class="banner-w">
+                        <p class="title">
+                            How to protect yourself from communication overload
+                        </p>
+                        <p class="subtitle">
+                            Posted by Hazel Squair
+                        </p>
+                        <p class="subtitle">
+                            20 JUL 2018
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="article-main-section">
+                <div class="container">
+                    <div class="article-main-w">
+                        <div class="tag-text">
+                            tags: workfile, marketing
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nulla lectus, cursus eu est in, semper efficitur tellus. Sed sit amet lectus in lacus venenatis semper dignissim et sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi at nisi commodo, molestie nibh vel, vehicula eros. Suspendisse at feugiat nibh, ac porttitor erat. Aenean pulvinar rhoncus rutrum. Ut in tellus eget augue pretium pharetra in blandit lectus. Donec eget nulla augue. Curabitur efficitur ipsum felis, at hendrerit orci semper quis. Phasellus convallis diam est, non finibus erat blandit eget. 
+                        </div>
+                        <div class="description">
+                            Curabitur a turpis bibendum, porttitor dolor vel, faucibus est. Nulla finibus purus elit, id porta urna dapibus eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sed urna vulputate metus interdum efficitur. Proin id eros eu elit tempor maximus sed ut lorem.
+                        </div>
+                        <div class="hero-text-w">
+                            <div class="hero-text">
+                                “Fusce sed urna vulputate metus interdum efficitur. Proin id eros eu elit tempor maximus sed ut lorem.”
+                            </div>
+                        </div>
+                        <div class="title">
+                            Curabitur a turpis bibendum
+                        </div>
+                        <div class="description">
+                            Sed neque nibh, porta eu nisi semper, pretium fermentum orci. Praesent vel rutrum sapien, sit amet ultricies sapien. Quisque nisi dolor, hendrerit vitae orci ut, sodales mattis sapien. Sed vulputate quis libero nec hendrerit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas in feugiat ipsum, bibendum commodo elit. Nunc rhoncus odio nec gravida hendrerit. Donec iaculis erat id sem posuere, in porttitor nisl convallis.
+                        </div>
+                        <div class="description">
+                            Phasellus commodo nunc dolor, feugiat porttitor mi fringilla et. Sed ac pretium est, sit amet elementum quam. Mauris dapibus nunc justo, eu pharetra libero auctor a. Aliquam a scelerisque metus. Ut eu orci ut nunc imperdiet consequat. Nulla porttitor mattis mattis. Aliquam auctor, justo vulputate convallis volutpat, sapien nibh pharetra lectus, in tempus enim orci et justo. Pellentesque suscipit commodo elit, ullamcorper tempor ipsum aliquet a. Etiam faucibus lobortis mauris ut imperdiet. Aenean in diam in augue pulvinar vestibulum a ac erat. Phasellus sodales justo tristique, pellentesque dolor ac, venenatis sem. Donec diam felis, sagittis ut condimentum a, ultricies et dui. Phasellus rhoncus tortor id diam pretium, at egestas odio porttitor.
+                        </div>
+                        <div class="blog-image-w">
+                            <div class="blog-image" style="background-image: url(./assets/images/Blogpage/blog_signle_img_1.png)"></div>
+                        </div>
+                        <div class="title">
+                            Curabitur a turpis bibendum
+                        </div>
+                        <div class="description">
+                            Sed neque nibh, porta eu nisi semper, pretium fermentum orci. Praesent vel rutrum sapien, sit amet ultricies sapien. Quisque nisi dolor, hendrerit vitae orci ut, sodales mattis sapien. Sed vulputate quis libero nec hendrerit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas in feugiat ipsum, bibendum commodo elit. Nunc rhoncus odio nec gravida hendrerit. Donec iaculis erat id sem posuere, in porttitor nisl convallis.
+                        </div>
+                        <div class="description">
+                            Phasellus commodo nunc dolor, feugiat porttitor mi fringilla et. Sed ac pretium est, sit amet elementum quam. Mauris dapibus nunc justo, eu pharetra libero auctor a. Aliquam a scelerisque metus. Ut eu orci ut nunc imperdiet consequat. Nulla porttitor mattis mattis. Aliquam auctor, justo vulputate convallis volutpat, sapien nibh pharetra lectus, in tempus enim orci et justo. Pellentesque suscipit commodo elit, ullamcorper tempor ipsum aliquet a. Etiam faucibus lobortis mauris ut imperdiet. Aenean in diam in augue pulvinar vestibulum a ac erat. Phasellus sodales justo tristique, pellentesque dolor ac, venenatis sem. Donec diam felis, sagittis ut condimentum a, ultricies et dui. Phasellus rhoncus tortor id diam pretium, at egestas odio porttitor.
+                        </div>
+                    </div>
+                    <hr class="has-background-primary" />
+                </div>
+            </section>
+            <section class="blog-main-section">
+                <div class="container">
+                    <div class="blog-main-w">
+                        <div class="title-text">
+                            You might also like...
+                        </div>
+                        <div class="columns is-multiline">                          
+                            <div class="column is-half">
+                                <div class="blog-w">
+                                    <div class="category-text">
+                                        worklife, Inspiration
+                                    </div>
+                                    <div class="title">
+                                        Why downtime is an important ingredient in any successful business
+                                    </div>
+                                    <div class="blog-image-w">
+                                        <div class="blog-image" style="background-image: url(./assets/images/Blogpage/toa-heftiba-578099-unsplash.jpg)"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-half">
+                                <div class="blog-w">
+                                    <div class="category-text">
+                                        marketing, tips & tricks
+                                    </div>
+                                    <div class="title">
+                                        The Brandcrush guide to effective brand communication
+                                    </div>
+                                    <div class="blog-image-w">
+                                        <div class="blog-image" style="background-image: url(./assets/images/Blogpage/the-creative-exchange-350584-unsplash.jpg)"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="component_footer"></div>
+        </div>
+    </body>
+</html>

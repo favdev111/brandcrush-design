@@ -1,0 +1,120 @@
+.activation-host-page{
+    .banner-section{
+        background: linear-gradient(rgba($color: #000000, $alpha: 0.5), rgba($color: #000000, $alpha: 0.5)), url("../images/Staticpages/Stocksy_txp829abf37kJ2200_Medium_1205144.jpg");
+        background-position: center;
+        background-size: cover;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        .hero-body{
+            .banner-w{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .title{
+                    font-family: Poppins;
+                    font-size: 32px;
+                    font-weight: bold;
+                }
+                .subtitle{
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-top: -1rem;
+                    margin-bottom: 3rem;
+                }
+                .button{
+                    width: 190px;
+                    height: 40px;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    // font-weight: 600;
+                }
+            }
+        }
+    }
+    .how-much-charge-section{
+        padding: 3rem 1rem;
+        background-color: $pale-grey;
+        .container{
+            max-width: 820px;
+        }
+        .how-much-charge-w{
+            .title{
+                font-family: Poppins;
+                font-size: 22px;
+                font-weight: 600;
+                text-align: center;
+                color: $charcoal-grey;
+                margin: 1rem auto 3rem;
+            }
+            p{
+                max-width: 770px;
+                margin: 1.75rem auto;
+                font-family: Karla;
+                font-size: 16px;
+                text-align: center;
+                color: $charcoal-grey;
+            }
+            .fees-w{
+                margin: 2rem auto;
+                .fee-item-w{
+                    margin: 1rem auto;
+                    .fee-sort{
+                        font-family: Karla;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: $charcoal-grey;
+                    }
+                    .fee-position{
+                        font-family: Karla;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: $charcoal-grey;
+                        margin: 1rem auto;
+                    }
+                    .fee-provide{
+                        font-family: Karla;
+                        font-size: 16px;
+                        text-align: center;
+                        color: $charcoal-grey;
+                    }
+                }
+            }
+        }
+    }
+    .success-tips-section{
+        padding: 3rem 1rem;
+        .container{
+            max-width: 650px;
+        }
+        .success-tips-w{
+            margin: 1rem auto;
+            .title{
+                font-family: Poppins;
+                font-size: 28px;
+                text-align: center;
+                color: $charcoal-grey;
+            }
+            .tip-w{
+                margin: 2rem auto 1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .tip-icon{
+                    height: 75px;
+                    width: auto;
+                    margin-bottom: 2rem;
+                }
+                .tip-desc{
+                    font-family: Karla;
+                    font-size: 16px;
+                    font-weight: bold;
+                    text-align: center;
+                    color: $charcoal-grey;
+                    max-width: 280px;
+                }
+            }
+        }
+    }
+}

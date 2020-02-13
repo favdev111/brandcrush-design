@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="./assets/css/mystyle.css">
+        <script defer src="./lib/js/fontawesome-5.2.0/js/all.js"></script>
+        <script src="./lib/js/jquery/jquery.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    </head>
+    <script>
+        $(function(){
+            $("#component_nav_with_search").load("component_nav_with_search.html", function(){
+                $(".navbar-burger").click(function() {
+                    $(".navbar-burger").toggleClass("is-active");
+                    $(".navbar-menu").toggleClass("is-active");            
+                });
+            });
+            $("#component_footer").load("component_footer.html");
+        })
+    </script>
+    <body>
+        <div id="component_nav_with_search"></div>
+        <div class="contact-us-page">
+            <section class="page-heading-section">
+                <div class="page-heading-w">
+                    <div class="title">
+                        Get in touch
+                    </div>
+                </div>
+            </section>
+            <section class="contact-main-section">
+                <div class="container">
+                    <div class="contact-title">
+                        Have questions about Brandcrush? If we can't answer your question <a href="#" class="has-text-primary">on our FAQ page</a>, feel free to give us a call or send a message via the form below.
+                    </div>
+                    <div class="contact-w">
+                        <div class="columns">
+                            <div class="column is-one-quarter">
+                                <div class="contact-us-text-w">
+                                    <div class="title">Contact us</div>
+                                    <div class="address-w">
+                                        <p>41 Stewart St,</p>
+                                        <p>Melbourne VIC 3121</p>
+                                        <p>Australia</p>
+                                    </div>
+                                    <div class="phone-num">Call 0488 444 771</div>
+                                </div>
+                            </div>
+                            <div class="column is-three-quarter">
+                                <div class="form-w">
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="form-group">
+                                                <div class="label">first name</div>
+                                                <input type="text" />
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="form-group">
+                                                <div class="label">last name</div>
+                                                <input type="text" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="form-group">
+                                                <div class="label">email</div>
+                                                <input type="text" />
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="form-group">
+                                                <div class="label">phone number</div>
+                                                <input type="text" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="form-group">
+                                                <div class="label">I'm a</div>
+                                                <div class="custom_select">
+                                                    <select>
+                                                        <option>Brand</option>
+                                                        <option>Activation Host</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="form-group">
+                                                <div class="label">country</div>                                             
+                                                <div class="custom_select">
+                                                    <select>
+                                                        <option>Australia</option>
+                                                        <option>Russia Federation</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="form-group">
+                                                <div class="label">message</div>
+                                                <textarea></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="form-group">
+                                                <div class="button is-primary is-fullwidth">Submit</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="component_footer"></div>
+        </div>
+    </body>
+</html>

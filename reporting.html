@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Activation Reporting</title>
+        <link rel="stylesheet" href="./assets/css/mystyle.css">
+        <script defer src="./lib/js/fontawesome-5.2.0/js/all.js"></script>
+        <script src="./lib/js/jquery/jquery.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </head>
+    <script>
+        $(function(){
+            $("#component_nav_with_search").load("component_nav_with_search.html", function(){
+                $(".navbar-burger").click(function() {
+                    $(".navbar-burger").toggleClass("is-active");
+                    $(".navbar-menu").toggleClass("is-active");            
+                });
+            });
+            $("#component_footer").load("component_footer.html");
+        })
+    </script>
+    <body>
+        <div id="component_nav_with_search"></div>
+        <div class="reporting-page">
+            <section class="why-activate-section">
+                <div class="why-activate-w cerise-bg">
+                    <div class="title">
+                        Activation Reporting
+                    </div>
+                </div>
+            </section>
+            <section class="activation-description-section">
+                <div class="container">
+                    <div class="activation-description-w">
+                        Watch the short video below to understand how to nail your Activation Report.
+                    </div>
+                </div>
+            </section>
+            <section class="watch-video-section">
+                <div class="container">
+                    <div class="watch-video-w">
+                        <div class="video-w">
+                            <img src="./assets/images/video_control.png" />
+                        </div>
+                        <div class="title">
+                            5 Steps to the perfect activation report
+                        </div>
+                        <div class="step-w">
+                            <div class="step">
+                                <span class="step-number">STEP 1:</span>
+                                <span class="description">
+                                    Use icons to indicate buying intent from your customers
+                                </span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">STEP 2:</span>
+                                <span class="description">
+                                    Provide anecdotal insights in 500 characters or less
+                                </span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">STEP 3:</span>
+                                <span class="description">
+                                    Upload photos of the activation in progress
+                                </span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">STEP 4:</span>
+                                <span class="description">
+                                    Submit within 72 hours of the end of the activation
+                                </span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">STEP 5:</span>
+                                <span class="description">
+                                    Enter your banking details to ensure you get paid
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container"><div class="custom-hr"></div></div>
+            <section class="success-tips-section">
+                <div class="container">
+                    <div class="success-tips-w">
+                        <div class="title">Tips for success</div>
+                        <div class="columns">
+                            <div class="column">
+                                <div class="tip-w">
+                                    <img class="tip-icon" src="./assets/images/heart-1@3x.png" />
+                                    <div class="tip-desc">
+                                        Brands love feedback - share with them what consumers said about the taste, smell, and touch of their product. 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="tip-w">
+                                    <img class="tip-icon" src="./assets/images/group@3x.png" />
+                                    <div class="tip-desc">
+                                        Take photos of consumers receiving their brand message, product or sample
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="good-luck-section">
+                <div class="container">
+                    <div class="good-luck-w post-component">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="image" style="background-image: url(./assets/images/Staticpages/Stocksy_txp829abf37kJ2200_Medium_2014570.jpg)"></div>
+                            </div>
+                            <div class="column">
+                                <div class="post-body">
+                                    <div class="post-title">Good luck with your next activation!</div>
+                                    <div class="post-desc">
+                                        <p>Please don’t hesitate to use our Activation Host Concierge service via the live support button in the bottom right hand corner of your screen, or you can <a class="has-text-primary" href="#">review our FAQS here</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="component_footer"></div>
+        </div>
+    </body>
+</html>
